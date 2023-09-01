@@ -1,0 +1,25 @@
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+:root {
+    --cor0: #000000;
+    --cor1: #000BA8;
+    --cor2: #2C6CF5;
+    --cor3: #8E1DF5;
+    --cor4: #062749;
+}
+
+html, body {
+    height: 100vw;
+    width: 100vh;
+    box-sizing: border-box;
+
+    background-image: linear-gradient(to bottom, #000000,#041b32, #051a49);
+}
