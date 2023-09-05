@@ -23,3 +23,50 @@ html, body {
 
     background-image: linear-gradient(to bottom, #000000,#041b32, #051a49);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    width: 100vw;
+    position: relative;
+}
+
+
+
+
+main > img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+
+    position: absolute;
+    top: 100px;
+    left: 70%;
+
+
+    animation: img 2s infinite ease-in-out;
+}
+
+@keyframes img {
+    50% {
+        transform: translateY(10%);
+    }
+}
