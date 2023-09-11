@@ -50,19 +50,29 @@ main {
 
 h1 {
     color: white;
+    text-shadow: 1px 1px 5px #000BA8;
     
 
     position: absolute;
     top: 150px;
     left: 30%;
+
+
+}
+
+h1:hover {
+    animation: h1 2s infinite  ease-out;
 }
 h2 {
     color: white;
+    text-shadow: 1px 1px 5px #000BA8;
+    
 
     position: absolute;
     top: 179px;
     left: 30%;
 }
+
 
 
 main > img {
@@ -85,3 +95,19 @@ main > img {
         transform: translateY(10%);
     }
 }
+
+
+@keyframes h1 {
+    0% {
+        transform: scale(0.75);
+    }
+
+    50% {
+        transform: scale(1.0);
+    }
+}
+    
+  
+  
+   
+  
