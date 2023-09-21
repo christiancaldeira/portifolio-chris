@@ -52,7 +52,8 @@ header > img {
 }
 
 
-@keyframes h1 {
+
+@keyframes a {
     0% {
         transform: scale(0.75);
     }
@@ -79,6 +80,15 @@ nav > a {
     padding: 10px;
 }
 
+nav > a:hover {
+    animation: a 1s infinite ease-out;
+    background-image: linear-gradient(to left,var(--cor2),var(--cor1));
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #f42626;
+    border-radius: 10px;
+    
+}
+
 h1 {
     color: white;
     text-shadow: 1px 1px 5px #000BA8;
@@ -91,9 +101,6 @@ h1 {
 
 }
 
-h1:hover {
-    animation: h1 2s infinite  ease-out;
-}
 h2 {
     color: white;
     text-shadow: 1px 1px 5px #000BA8;
