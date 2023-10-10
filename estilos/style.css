@@ -84,12 +84,12 @@ nav > a:hover {
     animation: a 1s infinite ease-out;
     background-image: linear-gradient(to left,var(--cor2),var(--cor1));
     text-decoration: none;
-    text-shadow: 2px 2px 5px #f42626;
+    text-shadow: 2px 2px 5px #912525;
     border-radius: 10px;
     
 }
 
-h1 {
+header > h1 {
     color: white;
     text-shadow: 1px 1px 5px #000BA8;
     
@@ -101,7 +101,7 @@ h1 {
 
 }
 
-h2 {
+header > h2{
     color: white;
     text-shadow: 1px 1px 5px #000BA8;
     
@@ -112,7 +112,29 @@ h2 {
 }
 
 
+main {
+    
+    width: 100vw;
+    height: 100vh;
+    
+    position: absolute;
 
+    background-color: #;
+}
+
+div {
+    
+    position:relative;
+    top: 48%;
+    left: 25%;
+}
+
+div > p {
+    color: white;
+
+
+    width: 300px;
+}
 
 
 
