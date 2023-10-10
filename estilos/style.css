@@ -113,27 +113,31 @@ header > h2{
 
 
 main {
-    
-    width: 100vw;
-    height: 100vh;
-    
     position: absolute;
+    top: 115%;
+    left: 13%;
 
-    background-color: #;
+    
 }
 
 div {
-    
-    position:relative;
-    top: 48%;
-    left: 25%;
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.098);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px 40px 10px 40px;
+
 }
 
 div > p {
+    
     color: white;
-
-
-    width: 300px;
+    text-shadow: 1px 1px 5px #000BA8;
+    
+    width: 350px;
+    
 }
 
 
@@ -148,8 +152,4 @@ div > p {
 
 
     
-main {
-    display: inline;
-    
-    background-color: #ee2727;
-}
+
