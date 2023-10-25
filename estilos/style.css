@@ -112,7 +112,7 @@ header > h2{
     left: 30%;
 }
 
-
+/*Configurações de main*/
 main {
     position: absolute;
     top: 115%;
@@ -121,27 +121,32 @@ main {
     
 }
 
-div {
-    position: relative;
-
+#principal {
+    
+ m
     background-color: rgba(255, 255, 255, 0.098);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     padding: 20px;
     border-radius: 10px 40px 10px 40px;
 
 }
 
-div > p {
+#principal > p {
     
     color: white;
-    text-shadow: 1px 1px 5px #000BA8;
+    text-shadow: 1px 1px 5px #000BA8; 
     
     width: 350px;
     
 }
 
-
+.projts {
+    margin: 20px;
+    background-color: #000BA8;
+    width: 100px;
+    height: 100px;
+    
+}
 
 
 
